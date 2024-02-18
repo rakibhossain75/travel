@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300&display=swap');
+
+
+body{
+    background-image: url(/vishal-mallik-Ed-EaNtjG_o-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lora', serif;
+}
+
+*{
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box; 
+}
+
+.logo{
+    margin-left: 190px;
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: cadetblue;
+    border-radius: 20%;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    padding: 15px;
+    
+}
+
+ul li{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    color: white;
+}
+.nav-link li{
+    width: 170px;
+    text-align: center;
+    padding: auto;
+    height: 30px;
+    float: left;
+    font-size: 17px;
+    line-height: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-link li:hover{
+    color: rgb(55, 55, 69);
+}
+
+.search-bar{
+    margin-right: 200px;
+    font-size: large;
+    
+}
+.search-bar input{
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.search-bar input::placeholder{
+    color: white;
+}
+.search-bar i:hover{
+    color: black;
+}
+
+.container{ 
+    display: flex;
+    margin-top: 15%;
+}
+
+.container-left{
+    margin-left: 100px;
+    justify-content: space-between;
+    
+}
+.container-left h1{
+    font-size: 60px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+.container-left p{
+    margin-right: 60%;
+    font-family: 'Inconsolata', monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.read{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+.blogs{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+.read:hover{
+    background-color: white;
+    color: black;
+}
+.blogs:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.container-right{
+    background-color: rgba(53, 57, 54, 0.553);
+    border-radius: 20px;
+    color: white;
+    margin-right: 10%;
+    padding: 25px 90px 25px 35px;
+}
+.container-right:hover{
+    background-color: rgba(34, 37, 35, 0.553);
+}
+
+.container-right p{
+    margin-bottom: 40px;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+
+.form input{
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 8px;
+    color: white;
+}
+
+.form input::placeholder{
+    color: white;
+}   
+
+
+
+#destination{
+    
+    margin-bottom: 20px;
+}
+#date{
+    margin-bottom: 40px;
+}
+
+.container-right button{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    width: 100%;
+    height: 0%;
+    font-size: 15px;
+}
+
+.container-right button:hover{
+    background-color: white;
+    color: black;
+}
